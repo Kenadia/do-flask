@@ -1,4 +1,3 @@
 # do-flask
 
-Starter kit to run a Flask server on DigitalOcean.
-
+Starter kit to run a Flask app on DigitalOcean.

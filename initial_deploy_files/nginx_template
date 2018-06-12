@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name DOMAIN_NAME_GOES_HERE;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:///home/deploy/flaskapp/flaskapp.sock;
+    }
+}
